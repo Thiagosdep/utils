@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "title": "change system default terminal",
+        "command": "sudo update-alternatives --config x-terminal-emulator",
+        "description": "commando to change system default terminal"
+    }
+]
