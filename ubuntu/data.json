@@ -1,8 +1,16 @@
-[
-    {
-        "id": 1,
-        "title": "change system default terminal",
-        "command": "sudo update-alternatives --config x-terminal-emulator",
-        "description": "commando to change system default terminal"
-    }
-]
+{
+    "id": 1,
+    "title": "change system default terminal",
+    "command": "sudo update-alternatives --config x-terminal-emulator",
+    "description": "This command allows you to change the default terminal emulator on your system by selecting from the available alternatives.",
+    "tags": [
+        "terminal",
+        "ubuntu",
+        "system"
+    ],
+    "examples": [
+        "sudo update-alternatives --config x-terminal-emulator",
+        "sudo update-alternatives --config x-terminal-emulator --set /usr/bin/gnome-terminal",
+        "sudo update-alternatives --config x-terminal-emulator --set /usr/bin/xfce4-terminal"
+    ]
+}
